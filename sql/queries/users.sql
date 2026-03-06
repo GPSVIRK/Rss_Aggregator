@@ -6,3 +6,6 @@ VALUES ($1, $2, $3, $4,
 RETURNING *;
 
 -- basically sqlc make the go code for the sql queries, we are making a funtion called createuser and returning one row, in this case everything that we inserted in
+
+-- name: GetUserByAPIKey :one
+SELECT * FROM users WHERE api_key=$1;

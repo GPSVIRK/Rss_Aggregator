@@ -90,4 +90,6 @@ Schema changes are managed using **Goose migrations**, and SQL queries are compi
 
 ## Notes
 
-This project was built primarily for **learning backend development with Go**, following the Boot.dev course by Wagslane. https://www.youtube.com/watch?v=un6ZyFkqFKo
+This project was built primarily for **learning backend development with Go**, following the Boot.dev course by Wagslane: [Go Programming – Golang Course with Bonus Projects](https://www.youtube.com/watch?v=un6ZyFkqFKo)
+
+
